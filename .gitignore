@@ -1,0 +1,64 @@
+# Maven target folder (build artifacts)
+target/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse IDE files
+.project
+.classpath
+.settings/
+
+# OS-specific files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+*.swp             # Vim swap files
+
+# Git-specific files
+*.orig            # Merge resolution backup files
+
+# Gradle files (if applicable)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar  # Exclude gradle-wrapper.jar for Gradle
+
+# Spring Boot-specific
+.env
+*.env
+*.properties
+application-*.yml
+application-*.properties
+application.yml
+application.properties
+
+# Secrets and credentials
+coursewagon-firebase-adminsdk-*.json
+
+# Maven wrapper files (optional, but commonly included)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Node.js / Angular (if your project includes a front-end module)
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
